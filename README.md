@@ -11,6 +11,10 @@ This project is created for PA3. It simulates program similar to one of the tele
  Basic approach is similar to PA2, but instead of patrolling around, it gets command via keyboard and follows the order. 
  Once a key command is received, it looks up corresponding function from dictionary, which has supporting movements' linear and angular component.
  Once robot approaches obstacle in 0.2 meters using scan data, it halts all motion.
+ 
+## Reflection
+Trying to implement most of commands was fairly straight forward. But spiraling motion and zigzag motion was a bit harder.
+By tracing on paper for spiraling and zigzag algorithms, it came more clear.
 
 ## Video orders
 l: rotate left
