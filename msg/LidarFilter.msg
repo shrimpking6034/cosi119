@@ -1,0 +1,9 @@
+int32 closest
+float32[] front
+float32[] frontright
+float32[] right
+float32[] backright
+float32[] back
+float32[] backleft
+float32[] left
+float32[] frontleft

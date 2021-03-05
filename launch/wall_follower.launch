@@ -1,0 +1,7 @@
+<launch>
+    <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_stage_1.launch" />
+
+    <node name="scan_values_handler" pkg="wall_follow" type="scan_values_handler.py" output="screen"/>
+    <node name="driver" pkg="wall_follow" type="driver.py" output="screen"/>
+    <node name="pid" pkg="wall_follow" type="pid.py" output="screen"/>
+</launch>
